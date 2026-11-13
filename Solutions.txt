@@ -23,3 +23,12 @@ if n%2==0:
     print(n,"is even.")
 else:
     print(n,"is odd.")
+
+#Check whether the number is positive, negative or zero.
+n=int(input("Enter the number:"))
+if n>=1:
+    print(n,"is positive.")
+elif n<=-1:
+    print(n,"is negative.")
+else:
+    print(n,"is zero.")
