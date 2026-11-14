@@ -32,3 +32,82 @@ elif n<=-1:
     print(n,"is negative.")
 else:
     print(n,"is zero.")
+
+# Write a program to find the greatest of the three numbers.
+n1=int(input("Enter the number:"))
+n2=int(input("Enter the second number:"))
+n3=int(input("Enter the third number:"))
+if n1>n2 and n1>n3:
+    print(n1,"is greatest.")
+elif n2>n1 and n2>n3:
+    print(n2,"is greatest.")
+else:
+    print(n3,"is greatest")
+
+# Write a program to write the multiplication table of the given number.
+n=int(input("Enter the number :"))
+for i in range(1,11):
+    print(n,"x",i,"=",n*i)
+
+# Write a program to sum of the numbers till n.
+n=int(input("Enter the number:"))
+summ=0
+for i in range(1,n+1):
+    summ+=i
+print(summ)
+
+# Write a program to print the factorial of a number.
+n=int(input("Enter the number:"))
+factt=1
+for i in range(1,n+1):
+    factt=factt*i
+print(factt)
+
+# Write a program to check whether a number is prime or not.
+n=int(input("Enter the number:"))
+divi=1
+for i in range(2,n+1):
+    if n%i==0:
+        divi+=1
+if divi==2:
+    print("Prime number.")
+else:
+    print("not prime")
+
+# Write a program to print all the prime numbers till n.
+n=int(input("Enter the number:"))
+for i in range(2,n+1):
+    divi=1
+    for j in range(2,i+1):
+        if i%j==0:
+            divi+=1
+    if divi==2:
+        print(i)
+
+
+# Write a program to print n to 1.
+n=int(input("Enter the number:"))
+for i in range(n,0,-1):
+    print(i)
+
+
+# Write a program to print odd numbers.
+n=int(input("Enter the number:"))
+for i in range(1,n+1,2):
+    print(i)
+
+# Write a prohram to print the fibonacci series.
+n=int(input("Enter the number:"))
+a=0
+b=1
+for i in range(n):
+    print(a)
+    c=a+b
+    a=b
+    b=c
+
+# Write a program to print the square or cube of a number.
+n=int(input("Enter the number:"))
+power=int(input("Enter the power:"))
+print(n**power)
+
