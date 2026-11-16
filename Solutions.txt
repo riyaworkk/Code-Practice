@@ -111,3 +111,42 @@ n=int(input("Enter the number:"))
 power=int(input("Enter the power:"))
 print(n**power)
 
+# Write a program to count number of vowels.
+word=input("Enter a string:")
+words=word.upper()
+count=0
+for i in range(len(word)):
+    if words[i]=="A" or words[i]=="E" or words[i]=="I" or words[i]=="O" or words[i]=="U":
+        count+=1
+print(count)
+
+# Write a program to count number of consonents.
+words=input("Enter a string:")
+words=words.upper()
+count=0
+for i in range(len(words)):
+    if words[i]!="A" and words[i]!="E" and words[i]!="I" and words[i]!="O" and words[i]!="U":
+        count+=1
+print(count)
+
+# Write a program to reverse a string.
+word=input("Enter a string:")
+rev=word[::-1]
+print(rev)
+
+# Write a program to reverse a string without using slicing.
+word=input("Enter the string:")
+rev=""
+for i in range(len(word)-1,-1,-1):
+    rev=rev+word[i]
+print(rev)
+
+# Write a program to check palindrome using loop.
+word=input("Enter the string:")
+rev=""
+for i in range(len(word)-1,-1,-1):
+    rev=rev+word[i]
+if word==rev:
+    print(True)
+else:
+    print(False)
