@@ -150,3 +150,63 @@ if word==rev:
     print(True)
 else:
     print(False)
+
+# Write a program to count uppercase and lowercase letters in a string.
+w=input("Enter the string")
+count_lower=0
+count_upper=0
+for i in range(len(w)):
+    if w[i].isupper():
+        count_upper+=1
+    elif w[i].islower():
+        count_lower+=1
+print(count_lower,count_upper)
+
+# Write a program to count uppercase and lowercase letters in a string without using isupper and islower.
+s=input("Enter the string")
+count_lower=0
+count_upper=0
+for i in range(len(s)):
+    if ord(s[i])>=97 and ord(s[i])<=122:
+        count_lower+=1
+    elif ord(s[i])>=65 and ord(s[i])<=90:
+        count_upper+=1
+print(count_lower,count_upper)
+
+# Write a program to convert a string into uppercase using ASCII calues.
+s=input("Enter the string")
+new=""
+for i in range(len(s)):
+    if ord(s[i])>=97 and ord(s[i])<=122:
+        new=new+chr(ord(s[i])-32)
+    elif ord(s[i])>=65 and ord(s[i])<=90:
+        new=new+s[i]
+print(new)
+
+# Write a program to count digits, letters and spaces.
+s=input("Enter a string:")
+digits=0
+letter=0
+space=0
+for i in range(len(s)):
+    if s[i].isdigit():
+        digits+=1
+    elif s[i].isalpha():
+        letter+=1
+    elif s[i].isspace():
+        space+=1
+print(digits,"digits", letter,"letter",space,"space")
+
+
+
+# Write a program to delete the duplicate.
+s=input("Enter the string:")
+new=""
+for i in range(len(s)):
+    count=0
+    for j in range(len(new)):
+        if s[i]==new[j]:
+            count+=1
+    if count==0:
+        new=new+s[i]
+print(new)
