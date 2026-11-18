@@ -23,3 +23,8 @@ Write a program to count uppercase and lowercase letters in a string without usi
 Write a program to convert a string into uppercase using ASCII calues.
 Write a program to count digits, letters and spaces.
 Write a program to delete the duplicate.
+Write a program to count the frequency of the each character.
+Write a program to print all substrings of a given string.(e.g. abc= a ab abc b bc c)
+write a program to find all factors of a number.
+Write a program to count the total number of divisors of a number.
+Write a program to check whether a number is a perfect or not (e.g. 6=1+2+3)
