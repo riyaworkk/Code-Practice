@@ -210,3 +210,52 @@ for i in range(len(s)):
     if count==0:
         new=new+s[i]
 print(new)
+
+
+# Write a program to count the frequency of the each character.
+s=input("Enter the string:")
+for i in range(len(s)):
+    count=0
+    found=0
+    for j in range(len(s)):
+        if s[i]==s[j]:
+            count+=1
+    for k in range(i):
+        if s[i]==s[k]:
+            found+=1
+    if found==0:
+        print(s[i],count)
+
+# Write a program to print all substrings of a given string.(e.g. abc= a ab abc b bc c)
+s = input("Enter a string: ")
+for i in range(len(s)):
+    for j in range(i + 1, len(s) + 1):
+        sub = ""
+        for k in range(i, j):
+            sub = sub + s[k]
+        print(sub)
+
+# write a program to find all factors of a number.
+n=int(input("Enter the number: "))
+for i in range(1,n+1):
+    if n%i==0:
+        print(i)
+
+# Write a program to count the total number of divisors of a number.
+n=int(input("Enter the number: "))
+count=0
+for i in range(1,n+1):
+    if n%i==0:
+        count+=1
+print(count)
+
+# Write a program to check whether a number is a perfect or not (e.g. 6=1+2+3)
+n=int(input("Enter the  number: "))
+total=0
+for i in range(1,n):
+    if n%i==0:
+        total=total+i
+if total==n:
+    print("This is the perfect number.")
+else:
+    print(False)
