@@ -259,3 +259,64 @@ if total==n:
     print("This is the perfect number.")
 else:
     print(False)
+
+# Count the number of digits in a number.
+n=int(input("Enter the number:"))
+count=0
+if n==0:
+    count==1
+else:
+    for i in range(n):
+        if n>0:
+            n=n//10
+            count+=1          
+print(count)
+
+# Find the sum of the digits.
+n=int(input("Enter the number:"))
+summ=0
+new=0
+for i in range(n):
+    rem=n%10
+    summ=summ+rem
+    n=n//10
+print(summ)
+
+# Check whether a number is palindrome or not.
+n=int(input("Enter the number:"))
+temp=n
+new=0
+for i in range(n):
+    if temp>0:
+        rem=temp%10
+        new=new*10+rem
+        temp=temp//10
+print(new)
+if new==n:
+    print(True)
+else:
+    print(False)
+
+# Check whether a number is armstrong or not.
+n=int(input("Enter a number:"))
+original=n
+count=0
+temp=n
+if n==0:
+    count==1
+else:
+    for i in range(n):
+        if temp>0:
+            count+=1
+            temp=temp//10
+summ=0
+temp=n
+for i in range(n):
+    if temp>0:
+        rem=temp%10
+        summ=summ+rem**count
+        temp=temp//10
+if summ==original:
+    print(True)
+else:
+    print(False)
