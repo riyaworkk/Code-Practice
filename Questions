@@ -28,3 +28,9 @@ Write a program to print all substrings of a given string.(e.g. abc= a ab abc b 
 write a program to find all factors of a number.
 Write a program to count the total number of divisors of a number.
 Write a program to check whether a number is a perfect or not (e.g. 6=1+2+3)
+Count the number of digits in a number.
+Find the sum of the digits.
+Check whether a number is palindrome or not.
+Check whether a number is armstrong or not.
+Find the GCD of two numbers.
+Find the LCM of two numbers.
