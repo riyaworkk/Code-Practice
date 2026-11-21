@@ -1,5 +1,120 @@
-Write a program to print star right angled triangle.
-write a program to print inverted star pattern right angled triangle.
-Write a program to print the combination of both right angled triangle.
-Write a program to print star pattern solid square.
-Write a program to print star pattern hollow square.
+Q1. Write a program to print star right angled triangle.
+Q2. write a program to print inverted star pattern right angled triangle.
+Q3. Write a program to print the combination of both right angled triangle.
+Q4. Write a program to print star pattern solid square.
+Q5. Write a program to print star pattern hollow square.
+Q6. Right-aligned triangle (use spaces)
+    *
+   **
+  ***
+ ****
+*****
+Q7. Write a program to print star pattern pyramid.
+Q8. Write a program to print the star pattern inverted pyramid.
+Q9. Write a program to print hollow right angled triangle.
+Q10. Write a program to print hollow pyramid.
+Q11. Write a program to print star pattern diamond.
+Q12. Incrementing numbers per row
+1
+12
+123
+1234
+12345
+
+Q13. Row number repeated
+1
+22
+333
+4444
+55555
+
+Q14. Inverted number triangle
+12345
+1234
+123
+12
+1
+
+Q15. Reverse counting rows
+54321
+5432
+543
+54
+5
+
+Q16. Floyd's triangle
+1
+2 3
+4 5 6
+7 8 9 10
+11 12 13 14 15
+
+Q17. Decreasing numbers per row
+1
+21
+321
+4321
+54321
+
+Q18. Alternating 0 and 1 triangle
+1
+01
+101
+0101
+10101
+
+Q19. Multiplication-table square
+1  2  3  4  5
+2  4  6  8  10
+3  6  9  12 15
+4  8  12 16 20
+5  10 15 20 25
+
+Q20. Number square with the row number in each row, centered pyramid
+    1
+   222
+  33333
+ 4444444
+555555555
+
+Q21. Number pyramid (palindrome)
+    1
+   121
+  12321
+ 1234321
+123454321
+
+Q22. Increasing alphabet triangle
+A
+AB
+ABC
+ABCD
+ABCDE
+
+Q23. Same letter per row
+A
+BB
+CCC
+DDDD
+EEEEE
+
+Q24. Inverted alphabet triangle
+ABCDE
+ABCD
+ABC
+AB
+A
+
+Q25. Reverse alphabet triangle
+E
+ED
+EDC
+EDCB
+EDCBA
+
+Q26. Alphabet pyramid
+    A
+   ABA
+  ABCBA
+ ABCDCBA
+ABCDEDCBA
