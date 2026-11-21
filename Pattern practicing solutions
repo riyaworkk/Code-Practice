@@ -39,3 +39,79 @@ for i in range(1,n+1):
         else:
             print(" ",end="")
     print()
+
+#Q.6 
+n=int(input("Enter the number:"))
+for i in range(1,n+1):
+    for j in range(n-i):
+        print(" ",end="")
+    for k in range(i):
+        print("*",end="")
+    print()
+
+#Q7
+n=int(input("Enter the  number:"))
+for i in range(1,n+1):
+    for j in range(n-i):
+        print(" ",end="")
+    for k in range(i):
+        print("*",end="")
+    for l in range(1,i):
+        print("*",end="")
+    print()
+
+#Q8.
+n=int(input("Enter the number:"))
+for i in range(1,n+1):
+    for j in range(i-1):
+        print(" ",end="")
+    for k in range(n-i+1):
+        print("*",end="")
+    for l in range(1,n-i):
+        print("*",end="")
+    print()
+#OR
+n=int(input("Enter the number:"))
+for i in range(1,n+1):
+    for j in range(i-1):
+        print(" ",end="")
+    for k in range(2*(n-i)-1):
+        print("*",end="")
+    print()
+#Q9.
+n=int(input("Enter the number:"))
+for i in range(1,n+1):
+    for j in range(1,i+1):
+        if i==1 or i==n or j==1 or j==i:
+            print("*",end="")
+        else:
+            print(" ",end="")
+    print()
+
+#Q10. 
+n=int(input("Enter the number:"))
+for i in range(1,n+1):
+    for j in range(n-i):
+        print(" ",end="")
+    for k in range((2*i)-1):
+        if k==0 or k==(2*i)-2 or i==n:
+            print("*",end="")
+        else:
+            print(" ",end="")
+    print()
+    
+    #OR 
+    
+n = int(input("Enter the number: "))
+for i in range(1, n+1):
+    for j in range(n-i):
+        print(" ", end="")
+    print("*", end="")
+    if i > 1 and i < n:
+        for k in range(2*i-3):
+            print(" ", end="")
+        print("*", end="")
+    if i == n:
+        for l in range(2*n-2):
+            print("*", end="")
+    print()
