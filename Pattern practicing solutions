@@ -1,15 +1,18 @@
+# Write a program to print star right angled triangle.
 n=int(input("Enter the number:"))
 for i in range(1,n+1):
     for j in range(i):
         print("*",end="")
     print()
 
+# write a program to print inverted star pattern right angled triangle.
 n=int(input("Enter the number:"))
 for i in range(n,0,-1):
     for j in range(i):
         print("*",end="")
     print()
     
+# Write a program to print the combination of both right angled triangle.
 n=int(input("Enter the number:"))
 for i in range(1,n+1):
     for j in range(i):
@@ -20,11 +23,14 @@ for i in range(n-1,0,-1):
         print("*",end="")
     print()
     
+# Write a program to print star pattern solid square.
 n=int(input("Enter the number:"))
 for i in range(1,n+1):
     for j in range(1,n+1):
         print("*",end="")
     print()
+    
+# Write a program to print star pattern hollow square.
 n=int(input("Enter the number:"))
 for i in range(1,n+1):
     for j in range(1,n+1):
